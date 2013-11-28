@@ -5,6 +5,6 @@
 <div class="form-group">
     <label for="<?=$element_id?>" class="col-sm-2 control-label"><?= $column->column_name ?></label>
     <div class="col-sm-10">
-        <input type="number" class="form-control" id="<?=$element_id?>" name="<?=$element_name?>" value="<?= $object->{$column->column_name} ?>" />
+        <input type="text" class="form-control" id="<?=$element_id?>" name="<?=$element_name?>" value="<?= $object->{$column->column_name} ?>" />
     </div>
 </div>

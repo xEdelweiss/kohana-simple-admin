@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
     <link href="/admin-media/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/admin-media/css/datetimepicker/bootstrap-datetimepicker.min.css" rel="stylesheet">
     <link href="/admin-media/css/bootstrap-theme.min.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -22,5 +23,11 @@
 <script src="https://code.jquery.com/jquery.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="/admin-media/js/bootstrap.min.js"></script>
+<script src="/admin-media/js/datetimepicker/bootstrap-datetimepicker.min.js"></script>
+<script>
+    $(function(){
+        $('input[type=datetime]').datetimepicker();
+    });
+</script>
 </body>
 </html>
