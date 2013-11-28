@@ -3,8 +3,8 @@
 <?php $element_name = $column->column_name; ?>
 
 <div class="form-group">
-    <label class="col-md-4 control-label" for="<?=$element_name?>"><?= $column->column_name ?></label>
-    <div class="col-md-4">
+    <label class="col-sm-2 control-label" for="<?=$element_name?>"><?= $column->column_name ?></label>
+    <div class="col-sm-10">
         <!-- select -->
         <?php if (count($column->options) > 3): ?>
             <select id="<?=$element_id?>" name="<?=$element_name?>" class="form-control">
