@@ -7,6 +7,11 @@
     <link href="/admin-media/css/bootstrap.min.css" rel="stylesheet">
     <link href="/admin-media/css/datetimepicker/bootstrap-datetimepicker.min.css" rel="stylesheet">
     <link href="/admin-media/css/bootstrap-theme.min.css" rel="stylesheet">
+    <style>
+        .sub-control-label {
+            font-weight: normal;
+        }
+    </style>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -17,7 +22,9 @@
 </head>
 <body>
 
-<?= $content ?>
+<div class="container">
+    <?= $content ?>
+</div>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://code.jquery.com/jquery.js"></script>
